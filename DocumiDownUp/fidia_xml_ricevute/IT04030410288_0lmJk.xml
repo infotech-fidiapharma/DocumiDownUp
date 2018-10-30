@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<p:FatturaElettronica xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2" versione="FPR12" xsi:schemaLocation="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2 fatturaordinaria_v1.2.xsd">
+  <FatturaElettronicaHeader>
+    <DatiTrasmissione>
+      <IdTrasmittente>
+        <IdPaese>IT</IdPaese>
+        <IdCodice>04030410288</IdCodice>
+      </IdTrasmittente>
+      <ProgressivoInvio>33934</ProgressivoInvio>
+      <FormatoTrasmissione>FPR12</FormatoTrasmissione>
+      <CodiceDestinatario>0000000</CodiceDestinatario>
+      <PECDestinatario>dl@pec.fidiapharmapec.it</PECDestinatario>
+    </DatiTrasmissione>
+    <CedentePrestatore>
+      <DatiAnagrafici>
+        <IdFiscaleIVA>
+          <IdPaese>IT</IdPaese>
+          <IdCodice>08949110152</IdCodice>
+        </IdFiscaleIVA>
+        <CodiceFiscale>01729760163</CodiceFiscale>
+        <Anagrafica>
+          <Denominazione>STERIS S.p.A.</Denominazione>
+        </Anagrafica>
+        <RegimeFiscale>RF01</RegimeFiscale>
+      </DatiAnagrafici>
+      <Sede>
+        <Indirizzo>Via Volta</Indirizzo>
+        <NumeroCivico>20</NumeroCivico>
+        <CAP>24069</CAP>
+        <Comune>TRESCORE BALNEARIO</Comune>
+        <Provincia>BG</Provincia>
+        <Nazione>IT</Nazione>
+      </Sede>
+      <IscrizioneREA>
+        <Ufficio>MI</Ufficio>
+        <NumeroREA>1482546</NumeroREA>
+        <StatoLiquidazione>LN</StatoLiquidazione>
+      </IscrizioneREA>
+      <Contatti>
+        <Telefono>035302729</Telefono>
+        <Email>info_it@steris.com</Email>
+      </Contatti>
+    </CedentePrestatore>
+    <CessionarioCommittente>
+      <DatiAnagrafici>
+        <IdFiscaleIVA>
+          <IdPaese>IT</IdPaese>
+          <IdCodice>00204260285</IdCodice>
+        </IdFiscaleIVA>
+        <Anagrafica>
+          <Denominazione>FIDIA FARMACEUTICI SPA</Denominazione>
+        </Anagrafica>
+      </DatiAnagrafici>
+      <Sede>
+        <Indirizzo>VIA PONTE DELLA FABBRICA 3/A</Indirizzo>
+        <CAP>35031</CAP>
+        <Comune>ABANO TERME</Comune>
+        <Provincia>PD</Provincia>
+        <Nazione>IT</Nazione>
+      </Sede>
+    </CessionarioCommittente>
+    <TerzoIntermediarioOSoggettoEmittente>
+      <DatiAnagrafici>
+        <IdFiscaleIVA>
+          <IdPaese>IT</IdPaese>
+          <IdCodice>04030410288</IdCodice>
+        </IdFiscaleIVA>
+        <Anagrafica>
+          <Denominazione>2C Solution S.R.L.</Denominazione>
+        </Anagrafica>
+      </DatiAnagrafici>
+    </TerzoIntermediarioOSoggettoEmittente>
+    <SoggettoEmittente>TZ</SoggettoEmittente>
+  </FatturaElettronicaHeader>
+  <FatturaElettronicaBody>
+    <DatiGenerali>
+      <DatiGeneraliDocumento>
+        <TipoDocumento>TD01</TipoDocumento>
+        <Divisa>EUR</Divisa>
+        <Data>2018-07-26</Data>
+        <Numero>22411</Numero>
+        <ImportoTotaleDocumento>3843.00</ImportoTotaleDocumento>
+        <Causale>Fattura di vendita</Causale>
+        <Art73>SI</Art73>
+      </DatiGeneraliDocumento>
+      <DatiTrasporto>
+        <DataInizioTrasporto>2018-07-26</DataInizioTrasporto>
+      </DatiTrasporto>
+    </DatiGenerali>
+    <DatiBeniServizi>
+      <DettaglioLinee>
+        <NumeroLinea>1</NumeroLinea>
+        <CodiceArticolo>
+          <CodiceTipo>INTERNO</CodiceTipo>
+          <CodiceValore>VALDOS</CodiceValore>
+        </CodiceArticolo>
+        <Descrizione>VALIDAZIONE DOSIMETRICA</Descrizione>
+        <Quantita>1.00</Quantita>
+        <UnitaMisura>EA</UnitaMisura>
+        <PrezzoUnitario>2600.00</PrezzoUnitario>
+        <PrezzoTotale>2600.00</PrezzoTotale>
+        <AliquotaIVA>22.00</AliquotaIVA>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>2</NumeroLinea>
+        <CodiceArticolo>
+          <CodiceTipo>INTERNO</CodiceTipo>
+          <CodiceValore>PRBETA</CodiceValore>
+        </CodiceArticolo>
+        <Descrizione>SOTTOPOSIZIONE DOSE MASSIMA DI MAX 50 CAMPIONI</Descrizione>
+        <Quantita>1.00</Quantita>
+        <UnitaMisura>EA</UnitaMisura>
+        <PrezzoUnitario>550.00</PrezzoUnitario>
+        <PrezzoTotale>550.00</PrezzoTotale>
+        <AliquotaIVA>22.00</AliquotaIVA>
+      </DettaglioLinee>
+      <DatiRiepilogo>
+        <AliquotaIVA>22.00</AliquotaIVA>
+        <ImponibileImporto>3150.00</ImponibileImporto>
+        <Imposta>693.00</Imposta>
+        <EsigibilitaIVA>I</EsigibilitaIVA>
+      </DatiRiepilogo>
+    </DatiBeniServizi>
+    <DatiPagamento>
+      <CondizioniPagamento>TP02</CondizioniPagamento>
+      <DettaglioPagamento>
+        <ModalitaPagamento>MP05</ModalitaPagamento>
+        <DataRiferimentoTerminiPagamento>2018-07-31</DataRiferimentoTerminiPagamento>
+        <GiorniTerminiPagamento>61</GiorniTerminiPagamento>
+        <DataScadenzaPagamento>2018-09-30</DataScadenzaPagamento>
+        <ImportoPagamento>3843.00</ImportoPagamento>
+        <IBAN>IT65X0356601600000127825017</IBAN>
+        <ABI>03566</ABI>
+        <CAB>01600</CAB>
+      </DettaglioPagamento>
+    </DatiPagamento>
+  </FatturaElettronicaBody>
+</p:FatturaElettronica>

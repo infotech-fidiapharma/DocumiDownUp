@@ -1,0 +1,141 @@
+<?xml version="1.0"?>
+<FatturaElettronica xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" versione="FPR12" xmlns="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2">
+  <FatturaElettronicaHeader xmlns="">
+    <DatiTrasmissione>
+      <IdTrasmittente>
+        <IdPaese>IT</IdPaese>
+        <IdCodice>02355260981</IdCodice>
+      </IdTrasmittente>
+      <ProgressivoInvio>09Ouf</ProgressivoInvio>
+      <FormatoTrasmissione>FPR12</FormatoTrasmissione>
+      <CodiceDestinatario>0000000</CodiceDestinatario>
+      <ContattiTrasmittente>
+        <Email>ABLETECH@PEC.IT</Email>
+      </ContattiTrasmittente>
+      <PECDestinatario>procurement@pec.fidiapharmapec.it</PECDestinatario>
+    </DatiTrasmissione>
+    <CedentePrestatore>
+      <DatiAnagrafici>
+        <IdFiscaleIVA>
+          <IdPaese>IT</IdPaese>
+          <IdCodice>03645040282</IdCodice>
+        </IdFiscaleIVA>
+        <CodiceFiscale>03645040282</CodiceFiscale>
+        <Anagrafica>
+          <Denominazione>A.F. PETROLI SPA </Denominazione>
+        </Anagrafica>
+        <RegimeFiscale>RF01</RegimeFiscale>
+      </DatiAnagrafici>
+      <Sede>
+        <Indirizzo>Via Castelletto, 13 </Indirizzo>
+        <CAP>35038</CAP>
+        <Comune>TORREGLIA</Comune>
+        <Provincia>PD</Provincia>
+        <Nazione>IT</Nazione>
+      </Sede>
+      <IscrizioneREA>
+        <Ufficio>PD</Ufficio>
+        <NumeroREA>32591</NumeroREA>
+        <StatoLiquidazione>LN</StatoLiquidazione>
+      </IscrizioneREA>
+    </CedentePrestatore>
+    <CessionarioCommittente>
+      <DatiAnagrafici>
+        <IdFiscaleIVA>
+          <IdPaese>IT</IdPaese>
+          <IdCodice>00204260285</IdCodice>
+        </IdFiscaleIVA>
+        <Anagrafica>
+          <Denominazione>FIDIA FARMACEUTICI S.P.A. </Denominazione>
+        </Anagrafica>
+      </DatiAnagrafici>
+      <Sede>
+        <Indirizzo>VIA PONTE DELLA FABBRICA 3/A </Indirizzo>
+        <CAP>35031</CAP>
+        <Comune>ABANO TERME</Comune>
+        <Provincia>PD</Provincia>
+        <Nazione>IT</Nazione>
+      </Sede>
+    </CessionarioCommittente>
+    <TerzoIntermediarioOSoggettoEmittente>
+      <DatiAnagrafici>
+        <IdFiscaleIVA>
+          <IdPaese>IT</IdPaese>
+          <IdCodice>02355260981</IdCodice>
+        </IdFiscaleIVA>
+        <CodiceFiscale>02355260981</CodiceFiscale>
+        <Anagrafica>
+          <Denominazione>ABLE TECH S.R.L.</Denominazione>
+        </Anagrafica>
+      </DatiAnagrafici>
+    </TerzoIntermediarioOSoggettoEmittente>
+    <SoggettoEmittente>TZ</SoggettoEmittente>
+  </FatturaElettronicaHeader>
+  <FatturaElettronicaBody xmlns="">
+    <DatiGenerali>
+      <DatiGeneraliDocumento>
+        <TipoDocumento>TD01</TipoDocumento>
+        <Divisa>EUR</Divisa>
+        <Data>2018-07-26</Data>
+        <Numero>18FD.010880</Numero>
+        <ImportoTotaleDocumento>1427.40</ImportoTotaleDocumento>
+      </DatiGeneraliDocumento>
+      <DatiDDT>
+        <NumeroDDT>18DDT.012740</NumeroDDT>
+        <DataDDT>2018-07-12</DataDDT>
+      </DatiDDT>
+    </DatiGenerali>
+    <DatiBeniServizi>
+      <DettaglioLinee>
+        <NumeroLinea>1</NumeroLinea>
+        <Descrizione>Vs. Riferimento ODA/PO 210007827 DELL 11/07/18 </Descrizione>
+        <Quantita>0.00</Quantita>
+        <PrezzoUnitario>0.00000000</PrezzoUnitario>
+        <PrezzoTotale>0.00</PrezzoTotale>
+        <AliquotaIVA>22.00</AliquotaIVA>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>2</NumeroLinea>
+        <Descrizione>Nr. DAS DASLC/29691 del 12/07/18. </Descrizione>
+        <Quantita>0.00</Quantita>
+        <PrezzoUnitario>0.00000000</PrezzoUnitario>
+        <PrezzoTotale>0.00</PrezzoTotale>
+        <AliquotaIVA>22.00</AliquotaIVA>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>3</NumeroLinea>
+        <CodiceArticolo>
+          <CodiceTipo>CARB</CodiceTipo>
+          <CodiceValore>27101943</CodiceValore>
+        </CodiceArticolo>
+        <Descrizione>GASOLIO AUTOTRAZIONE ALPINO NO BIO </Descrizione>
+        <Quantita>1000.00</Quantita>
+        <PrezzoUnitario>1.17000000</PrezzoUnitario>
+        <PrezzoTotale>1170.00</PrezzoTotale>
+        <AliquotaIVA>22.00</AliquotaIVA>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>4</NumeroLinea>
+        <Descrizione>Accisa Gasolio autotrazione/UM : /L/Quantita : /1.000/Prezzo Unitario : /0.61740000/Importo : /617.40/</Descrizione>
+        <Quantita>0.00</Quantita>
+        <PrezzoUnitario>0.00000000</PrezzoUnitario>
+        <PrezzoTotale>0.00</PrezzoTotale>
+        <AliquotaIVA>22.00</AliquotaIVA>
+      </DettaglioLinee>
+      <DatiRiepilogo>
+        <AliquotaIVA>22.00</AliquotaIVA>
+        <ImponibileImporto>1170.00</ImponibileImporto>
+        <Imposta>257.40</Imposta>
+        <EsigibilitaIVA>I</EsigibilitaIVA>
+      </DatiRiepilogo>
+    </DatiBeniServizi>
+    <DatiPagamento>
+      <CondizioniPagamento>TP02</CondizioniPagamento>
+      <DettaglioPagamento>
+        <ModalitaPagamento>MP05</ModalitaPagamento>
+        <DataScadenzaPagamento>2018-08-31</DataScadenzaPagamento>
+        <ImportoPagamento>1427.40</ImportoPagamento>
+      </DettaglioPagamento>
+    </DatiPagamento>
+  </FatturaElettronicaBody>
+</FatturaElettronica>
