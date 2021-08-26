@@ -13,6 +13,8 @@
 # Autore:      Piero Giacomelli
 # Data:        2018-10-29
 # Descrizione: console application per la gestione dello scarico fatture da Documi
+# Data:        2021-04-26
+# Descrizione: aggiunta gestione del rinomina se il file ha lo stesso nome (MAIUSCOLE / MINUSCOLE)
 # 
 #---------------------------------------------------------------------*
 */
